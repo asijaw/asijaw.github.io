@@ -1,11 +1,11 @@
 # Site settings
 author: Asija Watson
-title: 
+title: My Flatiron Journey 
 header-img: img/home-bg.png
 email: asija.w@yahoo.com
 copyright_name: Asija Watson
 description: > # this means to ignore newlines until "baseurl:"
-  
+  From Zero to Full Stack Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  asijaw
