@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "What is REST?"
-date:       2020-04-23 16:54:08 +0000
+date:       2020-04-23 12:54:09 -0400
 permalink:  what_is_rest
 ---
 
