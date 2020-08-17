@@ -10,7 +10,7 @@ In front-end development in order to make interactive webpages we tend to send l
 
 A fetch request accepts a URL along with a request type, either a "GET", "POST", "PATCH/PUT" or "DELETE", and that URL is then matched with a route.
 
-***fetch("http://127.0.0.1:3000/users" { method: "POST"})  ***
+***fetch("http://127.0.0.1:3000/users" { method: "POST"})***
 
 The fetch request always returns a what is called a promise. This promise tells the state or status of the request either it is pending, rejected, or resolved. If the promise is pending, it is can still go into a rejected or resolved state. If the promise is rejected that means an error occurred and the request could not be fufilled. If is resolved, then the promise has a reponse value. "DELETE" requests that are fulfilled are now done, but all other request have to go a step further in order to use the response data and to be able to append the DOM. Information is sent as *strings* across the internet, therefore, the body of the reponse must be jsonified. 
 
